@@ -1,5 +1,4 @@
 class Solution(object):
     def arrayPairSum(self, nums):
         
-        nums.sort()
-        return sum(nums[0::2])
+        return sum(sorted(nums)[0::2])
