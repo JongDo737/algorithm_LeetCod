@@ -10,9 +10,6 @@ class Solution(object):
                 sum = nums[i] + nums[j]
                 if(sum == target):
                     return [i,j]
-                j = j+1
-            i = i+1
-
 
 
         
