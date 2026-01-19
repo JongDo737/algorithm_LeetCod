@@ -9,5 +9,5 @@ class Solution(object):
             return nums.index(target)
         except ValueError:
             nums.append(target)
-            nums.sort()
+            nums = sorted(nums)
             return nums.index(target)
