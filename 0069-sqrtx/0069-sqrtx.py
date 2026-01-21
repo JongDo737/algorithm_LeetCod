@@ -12,6 +12,9 @@ class Solution(object):
         p2 = x/2
         p3 = x
 
+        if x <= 1:
+            return x
+
         while(True):
             print("p :",p1,p2,p3)
             int_p2 = int(p2)
